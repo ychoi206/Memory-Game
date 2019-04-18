@@ -165,24 +165,24 @@ h1 {
 }
 
 /* MEDIA QUERIES - Make sure game works for phone and tables as well */
-@media (min-width: 750px) {
+@media (min-width: 768px) {
 	.container {
-		font-size: 16px;
+		font-size: 20px;
 	}
 
 	.deck {
-		width: 635px;
-		height: 635px;
+		width: 660px;
+		height: 680px;
 	}
 
 	.deck .card {
-		height: 120px;
-		width: 120px;
+		height: 125px;
+		width: 125px;
 	}
 
 }
 
-@media (min-width: 415px) {
+@media (max-width: 415px) {
   .container {
 		font-size: 1.8em;
 	}
@@ -193,6 +193,6 @@ h1 {
 
 	.deck .card {
 		height: 23%;
-		width: 23%;
+		width: 28%;
 	}
 }
